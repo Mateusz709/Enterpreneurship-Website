@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #212529;
+}
+
+/*  General */
+.title_section {
+    display: flex;
+    align-items: center; /* Verical */
+    justify-content: center; /* Horizontal */
+    height: 100px;
+    background-color: #F8FAFC;
+    width: 100%;
+    position: relative;
+}
+
+.page_title{
+    color: #2563EB;
+}
+
+.Logo_Image{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    right: 20px;
+}
+
+#Page_NavBar, #Gallery_Page_NavBar{
+    float: left;
+    width: 100%;
+}
+.footer_section{
+    float: left;
+    width: 100%;
+    height: 90px;
+    background-color: #F8FAFC;
+    margin-top: 10px;
+    text-align: center;
+    color: #2563EB;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+/*  Index Page */
+#home_content_section{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    height: 600px;
+    background-color: #F8FAFC;
+}
+
+.home_content_header, .home_content_text{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #2563EB;
+}
+
+/*  Contact Page */
+#contact_form_section{
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    background-color: #F8FAFC;
+    text-align: center;
+    color: #2563EB;
+}
+
+#name_input, #email_input, #contact_number_input, #comment_input {
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+.Contact_Form_Label{
+    font-weight: bold;
+    
+}
+
+#name_label{
+    margin-top: 25px;
+}
+
+#contact_form_button {
+    margin-top: 20px;
+    width: 40%;
+    height: 50px;
+    background-color: #5284f0;
+    color: #F8FAFC;
+    font-weight: bold;
+}
+
+#contact_form_button:hover{
+    background-color: #2563EB;
+}
